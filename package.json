@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:gh-pages": "cross-env GITHUB_PAGES=true vite build",
+    "build:local": "vite build --mode local",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve:local": "vite preview --port 5000"
   },
   "dependencies": {
     "@dfinity/agent": "^3.2.1",

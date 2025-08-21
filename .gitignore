@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Note: docs folder is committed as it contains the GitHub Pages build
